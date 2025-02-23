@@ -1,0 +1,40 @@
+{
+  "name": "opus-server",
+  "version": "1.0.0",
+  "description": "A node server for the todo app called opus.",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "ts-node-dev src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gopi-p/opus-server.git"
+  },
+  "keywords": [
+    "opus",
+    "opus-server",
+    "node",
+    "server"
+  ],
+  "author": "Gopinath P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gopi-p/opus-server/issues"
+  },
+  "homepage": "https://github.com/Gopi-p/opus-server#readme",
+  "dependencies": {
+    "@types/pg": "^8.11.10",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7"
+  }
+}
